@@ -17,7 +17,7 @@ lorsque le projet est crée on a un fichier nomme index.html:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/7976a694-146c-499b-a6aa-db7c09ced8e5)
 Ensuite ce ficher fait appel au main.ts:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/97112d46-da39-4463-b405-88ae60abc921)
-Ce dernier démarre un module s’appelle AppModule dans lequel on a les déclarations des composantes, on importe les modules, il y a les services et Bootstrap :
+Ce dernier démarre un module s’appelle AppModule dans lequel on a les déclarations des composantes, on importe les modules, il y a les services et Bootstrap Component :
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/b1368829-cb7c-4eed-b15d-76e47a73cd5b)
 
 
