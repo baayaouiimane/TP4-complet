@@ -21,13 +21,16 @@ Ce dernier démarre un module s’appelle AppModule dans lequel on a les déclar
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/b1368829-cb7c-4eed-b15d-76e47a73cd5b)
 Maintenant, on va créer une application avec deux composants et avec un petit menu mais on doit utliser Bootstrap pour que ceci ca marche:
 Ensuite dans app.component.html on a le contenu suivant:
-![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/cc0b7446-13d8-49f8-ade2-9be9988e180a)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/80760050-d89e-49c6-8b58-f462e0808326)
 En visitant le localhost on aura le résultat ci dessous :
-![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a28df7d1-6157-41aa-a782-d525933b9fc8)
-![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/07bdcfcb-12ef-4077-b23d-a20eee44bda8)
-Aors en cliquant sur le bouton Home on doit afficher home.component et en cliquant sur le bouton Products on doit afficher products.component
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/40d7df9f-c5a2-4338-8d5d-06aaac9dd62d)
+Alors on souhaite cette fois ci que lorsqu on  clique sur le bouton Home on doit afficher home.component et en cliquant sur le bouton Products on doit afficher products.component
 Donc on commence par la création des deux composants , ensuite dans app.routing .module.ts:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a28df7d1-6157-41aa-a782-d525933b9fc8)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/77075676-5407-4e9f-9ac1-dccc5aef71c2)
+Et on va ajouter une petite modification dans app.component.html:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/3bbb625e-a517-4bb5-9d48-ca171446864a)
+
 
 
 Et lorsque je souhaite
