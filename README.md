@@ -49,7 +49,12 @@ Cette fois ci on veut afficher une liste de produits et avoir un bouton delete q
 Et aussi dans products.component.ts le contenu qui apparait ci dessous: 
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/15efe2e6-f0d5-4555-acc3-8688ff945aa3)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/fdcd0217-5599-4853-83a3-2e56d9cd5f4d)
-Cette fois la tache a faire c est de marquer le bouton selectionné:
+Cette fois la tache a faire c'est de marquer le bouton selectionné:
+Pour cela dans le fichier app .component.html:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6aacfd63-7b37-497a-975f-090ccf87ef04)
+Dans le fichier app.components.ts on ajoute ces modifications:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c17fe529-1b8b-445b-8137-668267a863a0)
+Et au final on ura l affichage suivant:
 
 
 
