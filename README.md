@@ -58,6 +58,9 @@ Et au final on aura l'affichage suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/780a7bee-4c63-40bb-9dd3-532f79332ef0)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/da0cee18-06a5-49df-87ab-36f2b1d6b110)
 # TP4-partie2
+On commence par l importation de bootstrap dans le fichier styles.css:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/3a37e1d3-98da-4088-a35d-af462bf26424)
+
 
 
 
