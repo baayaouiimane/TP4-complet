@@ -24,7 +24,7 @@ Ensuite dans app.component.html on a le contenu suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/80760050-d89e-49c6-8b58-f462e0808326)
 En visitant le localhost on aura le résultat ci dessous :
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/40d7df9f-c5a2-4338-8d5d-06aaac9dd62d)
-Alors on souhaite cette fois ci que lorsqu on  clique sur le bouton Home on doit afficher home.component et en cliquant sur le bouton Products on doit afficher products.component
+Alors on souhaite cette fois ci que lorsqu on  clique sur le bouton Home l url doit changer a /home et en cliquant sur le bouton Products l url doit changer a /products
 Donc on commence par la création des deux composants , ensuite dans app.routing .module.ts:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/77075676-5407-4e9f-9ac1-dccc5aef71c2)
 Et on va ajouter une petite modification dans app.component.html:
@@ -32,14 +32,28 @@ Et on va ajouter une petite modification dans app.component.html:
 On aura le résultat suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a28df7d1-6157-41aa-a782-d525933b9fc8)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/4384744f-9bba-4a2f-a586-a536862b43c0)
+Ensuite en ajoutant cette petite modification dans app.component.html:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/f4494705-31e2-4e5f-b04b-12680cc6a782)
+On aura le nouveau affichage:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c414cf07-e25f-40da-b3cf-a2c26aa1c754)
+Donc dans home.component.html:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/55a17cf1-04ba-4aa6-9b6f-2acda78d641d)
+On obtient le résutat suivant:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/696d04ff-ab51-4c9f-ab90-b526c7dc8b6f)
+On faira la meme chode pour products.component.html:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/0a1856ef-ffe3-450f-8f5e-eece8979130b)
+On obtient le résutat suivant:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/d862ea39-acec-499b-882b-1b83f18fa4cd)
+Cette fois ci on veut afficher une liste de produits et avoir un bouton delete qui marche et le search afin de chercher des produits donc dans products.component.ts  on ajoute le contenu qui apparait dans le code ci dessous:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/845dae1a-6b50-4c2b-ad62-31e6c56a956f)
+Et aussi dans products.component.ts le contenu qui apparait ci dessous: 
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/15efe2e6-f0d5-4555-acc3-8688ff945aa3)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/fdcd0217-5599-4853-83a3-2e56d9cd5f4d)
+Cette fois la tache a faire c est de marquer le bouton selectionné:
 
 
 
 
-
-
-
-Et lorsque je souhaite
 
 
 
