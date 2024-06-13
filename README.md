@@ -5,7 +5,7 @@ Tout d'abord on a commencé par l'installation de:Note.js
 Par la suite on ouvre le cmd et on exécute les commandes suivantes:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/ceced17e-db4d-426a-b7c4-2b8344c6bffe)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/054e7caf-be92-4dad-914d-774434216741)
-Par la suite on effectue le télechargement angular/cli
+Par la suite on effectue le téléchargement angular/cli
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/967bfc60-f31e-4bf3-8aec-0b6916a37dff)
 Pour tcheker l'installation:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/35d99751-c19e-49c8-9308-8c80ef88272e)
@@ -49,7 +49,7 @@ Cette fois ci on veut afficher une liste de produits et avoir un bouton delete q
 Et aussi dans products.component.ts le contenu qui apparait ci dessous: 
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/15efe2e6-f0d5-4555-acc3-8688ff945aa3)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/fdcd0217-5599-4853-83a3-2e56d9cd5f4d)
-Cette fois ci on est charge de faire une tache dont son but ultime c'est de marquer le bouton selectionné:
+Cette fois ci on est chargé de faire une tache dont son but ultime c'est de marquer le bouton selectionné:
 Pour cela dans le fichier app .component.html:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6aacfd63-7b37-497a-975f-090ccf87ef04)
 Dans le fichier app.components.ts on ajoute ces modifications:
