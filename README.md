@@ -19,6 +19,12 @@ Ensuite ce ficher fait appel au main.ts:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/97112d46-da39-4463-b405-88ae60abc921)
 Ce dernier démarre un module s’appelle AppModule dans lequel on a les déclarations des composantes, on importe les modules, il y a les services et Bootstrap Component :
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/b1368829-cb7c-4eed-b15d-76e47a73cd5b)
+Maintenant, on va créer une application avec deux composants et avec un petit menu mais on doit utliser Bootstrap pour que ceci ca marche:
+Ensuite dans app.component.html on a le contenu suivant:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/cc0b7446-13d8-49f8-ade2-9be9988e180a)
+
+
+
 
 
 
