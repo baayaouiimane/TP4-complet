@@ -24,7 +24,7 @@ Ensuite dans app.component.html on a le contenu suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/80760050-d89e-49c6-8b58-f462e0808326)
 En visitant le localhost on aura le résultat ci dessous :
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/40d7df9f-c5a2-4338-8d5d-06aaac9dd62d)
-Alors on souhaite cette fois ci que lorsqu on  clique sur le bouton Home l url doit changer a /home et en cliquant sur le bouton Products l url doit changer a /products
+Alors on souhaite cette fois ci que lorsqu on  clique sur le bouton Home l'url doit changer a /home et en cliquant sur le bouton Products l'url doit changer a /products
 Donc on commence par la création des deux composants , ensuite dans app.routing .module.ts:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/77075676-5407-4e9f-9ac1-dccc5aef71c2)
 Et on va ajouter une petite modification dans app.component.html:
@@ -40,7 +40,7 @@ Donc dans home.component.html:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/55a17cf1-04ba-4aa6-9b6f-2acda78d641d)
 On obtient le résutat suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/696d04ff-ab51-4c9f-ab90-b526c7dc8b6f)
-On faira la meme chode pour products.component.html:
+On faira la meme chose pour products.component.html:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/0a1856ef-ffe3-450f-8f5e-eece8979130b)
 On obtient le résutat suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/d862ea39-acec-499b-882b-1b83f18fa4cd)
@@ -54,7 +54,11 @@ Pour cela dans le fichier app .component.html:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6aacfd63-7b37-497a-975f-090ccf87ef04)
 Dans le fichier app.components.ts on ajoute ces modifications:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c17fe529-1b8b-445b-8137-668267a863a0)
-Et au final on ura l affichage suivant:
+Et au final on aura l'affichage suivant:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/780a7bee-4c63-40bb-9dd3-532f79332ef0)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/da0cee18-06a5-49df-87ab-36f2b1d6b110)
+
+
 
 
 
