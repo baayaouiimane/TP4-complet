@@ -153,6 +153,7 @@ Et aussi y aura un changement dans le controleur:
 Ensuite y'aura la creation d'une classe:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/e28c895c-5131-4107-904f-a862b4fa1be2)
 
+Partie3_Video2:
 
 
 
