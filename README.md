@@ -110,8 +110,19 @@ En démarrant l'application on aura le résultat:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/38102698-cfec-4019-813e-2f0dfe89f57b)
 En changeant l'url on obtient:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/111a4214-95cb-4582-bd68-9c08feb95555)
-En faisant un changement une autre pour l'url on aura:
+En faisant une autre fois un changement pour l'url on aura donc:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6413dcf6-4a42-43e3-a57d-461d05bfa800)
+Il existe un moyen beaucoup plus pratique pour tester les Api et Restfool c'est d'utiliser la documentation swager:
+Donc il faut ajouter la dépendance ci dessous dans le fichier pom.xml:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a7f8f3ab-0d3f-47dd-bfc3-b7478350b38c)
+Ensuite en démarrant l'application une autre fois on aura un affichage qui ressemble a ceci:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c7edb18b-c611-4498-aff2-b1ba4f3f7de0)
+On va tester get/students:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/0e76e7d8-7022-46d1-b1b9-89acd0f142a0)
+On va tester get/studentsByProgrammId:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/7867fe72-0426-4b9c-9b7e-f2c3f165d453)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/9601343f-2a2d-4cd5-ac9a-ab93c2476524)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/11ad34de-5b8f-4997-8586-b07282213cb3)
 
 
 
