@@ -93,18 +93,25 @@ Ensuite on a la classe Payment:
 Et pour les deux types enumerate on aura donc:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/801ab5b3-8a2c-4715-890b-dc72e43e928f)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/5cd808c7-5789-4189-bd1b-5582274efd6e)
-Par la suite on a crée a l'interieur du package repository une interface nommée:StudentRepository
+Par la suite on a crée a l'intérieur du package repository une interface nommée:StudentRepository
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/2689aa50-8173-41b7-aa7b-96e3992d2ac5)
 Ainsi qu' a l'intérieur de ce package on a crée une interface qui va gérer les payments dont son nom est:PaymentRepository
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/245e62a8-1335-4185-8792-717b6ad73650)
-Ensuite on va faire un test ,pour faire ce dernier
+Ensuite on va faire un test:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/06087cab-ae68-4a74-ad71-dcbd4521f5db)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/06d491b4-5bc9-4d2e-af8c-ae3a0f47d352)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/227ffe39-fd09-4994-8c67-d116537e0452)
-
-
 Par la suite on a configuré la base:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a5d71a85-93e9-4202-b5b7-3145475a7f2a)
+Avant de faire le test on va créer un RestController on va le créer dans la partie web:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a6cd9c9d-4759-4c6d-b761-56b6a99393f3)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/e7eff385-865c-4c39-8bb9-4c27b02a9b33)
+En démarrant l'application on aura le résultat:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/38102698-cfec-4019-813e-2f0dfe89f57b)
+En changeant l'url on obtient:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/111a4214-95cb-4582-bd68-9c08feb95555)
+En faisant un changement une autre pour l'url on aura:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6413dcf6-4a42-43e3-a57d-461d05bfa800)
 
 
 
