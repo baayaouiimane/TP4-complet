@@ -135,7 +135,23 @@ D'abord il nous la partie qui permet de faire l'ajout d'un paiement:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c4c4eab2-36bc-4bc1-98eb-3e3cc4705013)
 On fait maintenant un test:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/61945bea-6f51-4124-a178-adfa4e17b985)
-
+En cliquant sur Execute on aura le résultat suivant:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/2aa9c48c-208a-484b-a8fd-0825013eb5b3)
+On bien recu a récuperer le fichier et a l'envoyer dans le bon endroit:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/f4f73627-144f-4801-885e-f233ccf19051)
+On va créer une méthode qui va pouvoir consulter le fichier:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/d73dbd91-4a63-48e9-9500-6f213aee30ee)
+En faisant un test on obtient donc:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/90e525f5-02cd-4821-a558-4607be5046b7)
+Passant maintenant a la partie front end:
+Alors dans la couche service on doit créer une classe nommée PaymentService:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/35c5ad0c-80fb-424c-8c1e-1c24420f4c60)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/10be67ad-3aff-4420-b574-d2afe5660921)
+Et aussi y aura un changement dans le controleur:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/39032cf1-4bea-4d28-acef-76d4ec1ec8b4)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/316006dd-d0fd-4f9c-b4d7-9f37fca6376e)
+Ensuite y'aura la creation d'une classe:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/e28c895c-5131-4107-904f-a862b4fa1be2)
 
 
 
