@@ -57,10 +57,54 @@ Dans le fichier app.components.ts on ajoute ces modifications:
 Et au final on aura l'affichage suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/780a7bee-4c63-40bb-9dd3-532f79332ef0)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/da0cee18-06a5-49df-87ab-36f2b1d6b110)
-# TP4-partie2
-On commence par l importation de bootstrap dans le fichier styles.css:
-![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/3a37e1d3-98da-4088-a35d-af462bf26424)
+# TP4-partie3-video1
+Le but ultime de cette troisieme partie: 
+1.Créer les entités JPA
+2.Créer les interfaces JPARepository basées sur Spring Data
+3 . Générer des données aléatoires concernant quelques étudiants et pour chaque étudiants des payements
+4. Créer une Web service RESTful (ResController) qui permet d'exposer les fonctionnalisés suivantes :
+    - Consulter tous les payements
+    - Consulter un payement sachant son id
+    - Consulter les payemenst d'un type donné
+    - Consulter les payements d'un status donné
+    - Consulter les payements d'un étudiant donné
+    - Consulter les payements d'une filière donnée
+    - Consulter tous les étudiants
+    - Consulter les étudiants d'une filière donnée
+    - Consulter un étudiant sachant son code
+    - Effectuer un nouveau payement avec les données et le reçu de payement au format pdf
+    - Mettre à jour le status d'un payement
+    - Consulter le reçu d'un payement  (fichier pdf) 
+     5 - Tester le backend en utilisant un client REST (Postman) et avec SWAGGER UI
+     6 - Faire un refactoring du code en utilisant la couche service, les DTOs et les Mappers
+Tout d'abord on commence par créer un projet nommée:fsm-Demo-spring-angular et ajouter les dépendances nécessaires pour le travail
+Ensuite on a crée divers packages: 
+_entities pour les entités
+_repository pour les repository
+_service pour la couche service
+_web pour la partie web
+_security pour la partie sécurité
+_dtos
+Ensuite dans le package entities on a crée deux entités:Student et Payement
+Commencant par la classe Student:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/d2921b79-3e9d-417f-8871-3af7eface653)
+Ensuite on a la classe Payment:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/18448174-fbb8-45ef-a531-1fc44b85e949)
+Et pour les deux types enumerate on aura donc:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/801ab5b3-8a2c-4715-890b-dc72e43e928f)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/5cd808c7-5789-4189-bd1b-5582274efd6e)
+Par la suite on a crée a l'interieur du package repository une interface nommée:StudentRepository
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/2689aa50-8173-41b7-aa7b-96e3992d2ac5)
+Ainsi qu' a l'intérieur de ce package on a crée une interface qui va gérer les payments dont son nom est:PaymentRepository
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/245e62a8-1335-4185-8792-717b6ad73650)
+Ensuite on va faire un test ,pour faire ce dernier
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/06087cab-ae68-4a74-ad71-dcbd4521f5db)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/06d491b4-5bc9-4d2e-af8c-ae3a0f47d352)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/227ffe39-fd09-4994-8c67-d116537e0452)
 
+
+Par la suite on a configuré la base:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a5d71a85-93e9-4202-b5b7-3145475a7f2a)
 
 
 
