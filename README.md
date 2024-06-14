@@ -154,6 +154,7 @@ Ensuite y'aura la création d'une classe dont son nom est:PaymentDTO.java
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/e28c895c-5131-4107-904f-a862b4fa1be2)
 
 Partie3_Video2:
+Ajout du projet angular dans notre projet et l'ajout d'angular material :
 
 
 
