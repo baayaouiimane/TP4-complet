@@ -132,8 +132,10 @@ En consultant la base de donnée on trouve que:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/72418296-f2a8-44e9-97d7-0e8fe4272ebd)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/63ae4e74-4f62-4333-abb9-359b5b7ea0fd)
 D'abord il nous la partie qui permet de faire l'ajout d'un paiement:
-![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/9badd09a-d47b-4d04-9ce7-2bd967749ccb)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c4c4eab2-36bc-4bc1-98eb-3e3cc4705013)
 On fait maintenant un test:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/61945bea-6f51-4124-a178-adfa4e17b985)
+
 
 
 
