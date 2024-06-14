@@ -123,6 +123,12 @@ On va tester get/studentsByProgrammId:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/7867fe72-0426-4b9c-9b7e-f2c3f165d453)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/9601343f-2a2d-4cd5-ac9a-ab93c2476524)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/11ad34de-5b8f-4997-8586-b07282213cb3)
+Et par la suite on va créer une méthode qui permet de mettre a jour le status du paiement et une autre qui permet de faire l'ajout d'un paiement:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/53a909e4-968b-4d32-8b16-8ecaf844ca21)
+Par la suite on va tester:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/42ca572d-3f33-4083-b339-ee8e47b62a1a)
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/55a763c0-4caa-4f63-91ca-7ae370c77627)
+
 
 
 
