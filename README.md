@@ -57,6 +57,51 @@ Dans le fichier app.components.ts on ajoute ces modifications:
 Et au final on aura l'affichage suivant:
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/780a7bee-4c63-40bb-9dd3-532f79332ef0)
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/da0cee18-06a5-49df-87ab-36f2b1d6b110)
+
+TP4_partie2:
+ Il faut commencer par ajouter des produits et handleCheckProduct function :
+ ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c93cb1d2-eac2-4788-a9b4-1e731984a879)
+ Résultat :
+ ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/e41fab8c-80dc-4c93-8465-64587c8aa279)
+ Installation de Json server et creation de la DB json :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6037e6c5-4972-46ab-993a-65b91b6bd149)
+Après le lancement du json-server sur le port 8088 , lorsqu'on ajoute /products , on reçoie le résultat suivant : 
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/132beaa2-a25b-44d9-a11c-0d4505a8210d)
+Ajout des fonctions pour handle check et handle Delete pour faire des modifications dans le backend et le front end:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/8226f302-9736-4a50-97ed-7d3c70989756)
+ Voici l'apparition du Message de confirmation lors de la suppression:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/51d905f3-0b34-487a-aff9-810e608a2e66)
+Apres la confirmation:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6d61e208-0e0d-4a9f-bfe7-ef158ace9375)
+La recherche d'un produit :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/b8f9cfd7-539f-4cf9-aeb8-fd2addcdc462)
+Part 2:
+Modification de la fonctino getProducts pour qu'elle puisse prendre la réponse à partir de l'URL :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6750158c-05f5-4ac6-82ee-b42ffd885eb1)
+Modification de getProducts pour recevoir le x-total-count pour savoir le nombre de pages (totalPages) :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/8e0dabb1-9156-4f9d-943a-44d6e5568bad)
+On reçoit sur la console le nombre de x-total-count :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/4067114c-c922-44bf-85f0-25d415815431)
+Utilisation de totalPages pour faire la pagination :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/b70ad722-a737-4935-84ad-da8d0235e90c)
+Résultat de Pagination :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/f3bdcf10-2d7f-44cb-9379-ec9c246e9836)
+Ajout d'un nouvelle component editProduct et function update pour pouvoir modifier un produit :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/cf0646cf-2adc-4bba-886a-5e2c5f2acf3e)
+Après ajout de bouton et icone dans editProduct.html , on reçoit le résultat suivant :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/1d13e689-cc25-4147-9f25-5b096913a447)
+lorsqu'on click sur l'edit d'un produit , on se retrouve dans le formulaire de modification et update :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6f1dca53-2e9d-4426-b78d-63dfec090a5d)
+Part 3
+Ajout du component dashboard :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/4c757f3a-3b67-43c7-a23e-4ec91c2a3a14)
+Résultat :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/12547b87-5b90-41a6-8696-2dbe323dc389)
+L'ajout de app-errors pour gérer les erreurs . Dans ce test ,nous avons arrété le json-server pour qu'on puisse voir l'erreur :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/bad5bc48-7074-4845-80d2-2b5f2703fa82)
+Rendre la connexion un peu lent pour voir le spinner de chargement des produits :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/6fab2b9d-784a-4b2f-8d79-62c9d2ddcb9e)
+
 # TP4-partie3-video1
 Le but ultime de cette troisieme partie: 
 1.Créer les entités JPA
@@ -155,6 +200,28 @@ Ensuite y'aura la création d'une classe dont son nom est:PaymentDTO.java
 
 Partie3_Video2:
 Ajout du projet angular dans notre projet et l'ajout d'angular material :
+La creation d' une Nouvelle interface en utilisant angular et angular material :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/c2afe3b8-3ef0-4631-991b-a7958f498508)
+Création du component Login pour effectuer l'authentification :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/bea34697-1d1b-4a4c-ab47-b18b09a3fd94)
+Interface d'authentification :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/74a40bcd-887c-493e-94ea-f353d1a10308)
+Authentification de l'admin :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/d557d1ec-895a-4328-928c-2705811ea15f)
+Authentification de User1:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/8fc93ce3-a8cc-4f33-9eec-859f3f6bcd02)
+Nouvelle vue de l'user1 (ne pas afficher le menu import ) :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/ad5166df-6295-49e3-a350-75a819bdc507)
+Récupération des payments à partir du back-end :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/00e5ac11-d9bb-4ac9-b046-f7bddd400601)
+Affichage dans payments.component.html en utilisant angular material:
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/a51dc4ee-587a-499b-9ccd-ffe7a9d6ad28)
+Résultat :
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/03839ce8-5d48-426d-8353-fb9f6c210929)
+Interface finale après MatPaginator et MatSort :
+![Uploading image.png…]()
+
+
 
 
 
