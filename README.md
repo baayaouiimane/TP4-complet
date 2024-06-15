@@ -219,7 +219,8 @@ Affichage dans payments.component.html en utilisant angular material:
 Résultat :
 ![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/03839ce8-5d48-426d-8353-fb9f6c210929)
 Interface finale après MatPaginator et MatSort :
-![Uploading image.png…]()
+![image](https://github.com/baayaouiimane/TP4-complet/assets/167249908/24eeb2c3-e4bf-465e-8b1c-7b49e7924212)
+
 
 
 
